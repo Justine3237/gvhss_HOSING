@@ -1,2 +1,2 @@
-# gvhss_HOSING
+# gvhss_HOSTING
 This is for maintain the server of gvhss app's...
