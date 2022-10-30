@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-	<meta charset="UTF-8">
-	
-	<style>
-		* { margin: 0; padding: 0; }
+<style>
+
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color:#000000;
+  color: white;
+}
+
 		
-		html { 
-			background: url(https://thumbs.gfycat.com/HilariousHorribleKakarikis-max-1mb.gif) no-repeat center center fixed; 
+		body { 
+			background: url(https://media3.giphy.com/media/2tNvsKkc0qFdNhJmKk/giphy.gif) no-repeat center center fixed; 
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
 			-o-background-size: cover;
@@ -16,29 +21,10 @@
 		}
 		
 		#page-wrap { width: 400px; margin: 50px auto; padding: 20px; background: white; -moz-box-shadow: 0 0 20px black; -webkit-box-shadow: 0 0 20px black; box-shadow: 0 0 20px black; }
-		p { font: 15px/2 Georgia, Serif; margin: 0 0 30px 0; text-indent: 40px; }
-	</style>
-</head>
-
-
-
-
-
-
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-footer {
-  text-align: center;
-  padding: 3px;
-  background-color:#000000;
-  color: white;
-}
 a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
-a:active { text-decoration: none; }
+a:active { text-decoration: none; }		
 </style>
 
 
@@ -56,7 +42,15 @@ body {font-family: "Open Sans"}
 </head>
 <body >
 
-
+<!-- Navigation bar with social media icons -->
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+  </div>
   
 <!-- w3-content defines a container for fixed size centered content, 
 and is wrapped around the whole page content, except for the footer in this example -->
@@ -70,11 +64,11 @@ and is wrapped around the whole page content, except for the footer in this exam
 
   <!-- Image header -->
   <header class="w3-display-container w3-wide" id="home">
-    <img class="w3-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYaK7AbMlneAC0SGSN_DgyaMKDZ23nXUhYVmRfai6lRtcNm0vvstVbHJoi2e5hy2Net7R12CKtJ4FW8iDSPLkhPPnSzBJ_EunlMPl8gSXAD8mTAWEgkTzB8neCgwbH42KOU_DzPrDlKJj52YKmB9V9L3IPOW8iMp_HRwGqfBA0Z6miESdENIgXUmAk1Q/s1600/WhatsApp%20Image%202022-10-20%20at%2012.23.43%20PM%20%281%29.jpeg" alt="OFFICIAL WEBSITE" width="1600" height="1060">
+    <img class="w3-image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhexYohNGpJ8K2lIVWUZprqJndu1Uz-U1jffdhp-uxSaML6eTFvtqwk_ad9jq7CxUF9bAkkQs3gKYvG1Q_5R6CpkzSvgywvrFPotcIQll4CjJ_8UuktlDsDEiY6V8Oyy8-UN6jhR_muxu1OrZW_KaA7sBqFp1t_HQSnQZBKYh7YaicEAHYXuKttlg8uJw/s320/WhatsApp%20Image%202022-10-30%20at%201.32.41%20PM.jpeg" alt="OFFICIAL WEBSITE" width="1600" height="1060">
     <div class="w3-display-left w3-padding-large">
       <h1 class="w3-text-white">GVHSS Chelari's</h1>
         <h1 class="w3-jumbo w3-text-white w3-hide-small">OFFICIAL WEBSITE</h1>
-      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">Download </button></h6>
+      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">Download App</button></h6>
     </div>
   </header>
 
@@ -110,10 +104,10 @@ and is wrapped around the whole page content, except for the footer in this exam
         <div class="w3-container w3-padding w3-black">
           <h4>More that we have</h4>
         </div>
-       <ul class="w3-ul w3-hoverable w3-white">
-          <a href="achivements.html"><li class="w3-padding-16">
+       <a href="achivements.html"><ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
           <img src="https://cdn-icons-png.flaticon.com/512/4371/4371476.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-           Achivements
+           <span class="w3-large">Achievments</span>
             <br>
             <span>Golden Feathures</span>
           </li></a>
@@ -123,19 +117,8 @@ and is wrapped around the whole page content, except for the footer in this exam
            <br>
             <span>Our Enlighting Leaders</span>
           </li></a>
-          <a href="#"><li class="w3-padding-16">
-            <img src="https://cdn-icons-png.flaticon.com/512/801/801138.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-            <span class="w3-large">Materials</span>
-            <br>
-
-            <span> Text, Notes & Solutions</span>
-          </li></a>
-          <a href="Materials.html"><li class="w3-padding-16">
-            <img src="https://cdn-icons-png.flaticon.com/512/6352/6352788.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
-            <span class="w3-large">N S Q F</span>
-            <br>
-            <span>About Natoinal Skill Qualification</span>
-          </li></a>
+        
+        
         <a href="gallery.html"><li class="w3-padding-16">
             <img src="https://cdn-icons-png.flaticon.com/512/4184/4184669.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
             <span class="w3-large">Gallery</span>
@@ -164,7 +147,7 @@ and is wrapped around the whole page content, except for the footer in this exam
         <div class="w3-container w3-black">
           <h4>Application Promo</h4>
         </div>
-        <div class="w3-container w3-black">
+        <div class="w3-container w3-dark-grey">
           <div class="w3-container w3-display-container w3-grey w3-section" style="height:100%">
              <span class="w3-middle"> <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEho-tnNS0EpzQ7NptQLc4OnT0EZy6_dtGalewo5QPt9_mt0SRMvB0e0jj6RhB3ChjyB_4l72zFjcn3tcvfRUKqlUakKLpyid8VDHf0HtcxDWjZQFQ4GvPJlhjJsn8GGuLDFOePxf_XybSq-8ebcg2veR6DBswSMXtjqeOEJQfj-4BPzMHqRPU28GlZZIQ/s1600/IMG-20221023-WA0027.jpg" alt="Government Vocatinal Higher Secondary School Chelari" style="width:100%" class="w3-padding-16"><span>
           
@@ -174,7 +157,38 @@ and is wrapped around the whole page content, except for the footer in this exam
       </div> 
  <!--End Grid  Promo  Here -->
  </div>
+      <!--Special Thanks To-->
+      <div class="w3-white w3-margin"> 
+        <div class=" w3-padding w3-black">
+          <h4>Special Thanks To</h4>
+        </div>
+        <div class="w3-container w3-white w3-padding">
+          <p>
+            <span class="w3-tag w3-black w3-margin-bottom ">Sir. Jinesh</span>
+             <span class="w3-tag w3-light-grey w3-margin-bottom ">Mrs. Ashitha</span>
+              <span class="w3-tag w3-light-grey w3-margin-bottom"></span>
+              <span class="w3-tag w3-light-grey w3-margin-bottom">Hats</span> 
+            <span class="w3-tag w3-light-grey w3-margin-bottom">Norway</span>
+             <span class="w3-tag w3-light-grey  w3-margin-bottom">Sweaters</span>
+            <span class="w3-tag w3-light-grey  w3-margin-bottom">Ideas</span>
+             <span class="w3-tag w3-light-grey w3-margin-bottom">Deals</span> 
+             <span class="w3-tag w3-light-grey  w3-margin-bottom">Accessories</span>
+            <span class="w3-tag w3-light-grey w3-margin-bottom">Shadil.TC</span>
+             <span class="w3-tag w3-light-grey w3-margin-bottom">Shifna</span>
+              <span class="w3-tag w3-light-grey w3-margin-bottom">Rufna</span>
+            <span class="w3-tag w3-light-grey  w3-margin-bottom">Niya.S</span> 
+            <span class="w3-tag w3-light-grey  w3-margin-bottom">Ananya.K</span>
+          </p>
+        </div>
+      </div>
+      <hr>
+
       
+  <!-- END GRID -->
+  </div>
+<!-- END w3-content -->
+</div>
+
 <!-- Subscribe Modal -->
 <div id="subscribe" class="w3-modal w3-animate-opacity">
   <div class="w3-modal-content" style="padding:32px">
@@ -182,7 +196,7 @@ and is wrapped around the whole page content, except for the footer in this exam
       <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
       <h2 class="w3-wide">Click Here To Proceed</h2>
       <p>Download Our Official App Now</p>
-	<a href="OfficialApplication.html" target="_blank"><button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Download Now</button></a><br />
+	<a href="https://drive.google.com/file/d/16d8bvYSh85-g5PI2TgBXRiiD85kg3mIa/view" target="_blank"><button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Download Now</button></a><br />
 	<h6>To Contact</h6>
 	 <a href="tel:917510255646" ><button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" >To Contact Directly</button></a>
     </div> 
@@ -191,11 +205,11 @@ and is wrapped around the whole page content, except for the footer in this exam
  <!-- About Creators -->
     
       <!-- About Card -->
-      <div class="w3-transperant w3-margin">
+      <div class="w3-white w3-margin">
         <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeQAKNvbsxc9A_2EbJox_dTY6_dnxbuZf1OQxS5gOFXrEgwauDW_Nc51HxA_-iYXLVgcJ5sIYXN1RqtDpR7ba6FoPUeJZvpl_gHD4CnaH8lA6_fap0NbKgyziklN9n_CgMK0YBrQIIbDoSP34yv5NXU1p2sa00jIu8y7m9dhAz-f2cJ47MIdgaNGt9uA/s1600/20221026_152750.jpg" alt="Creator" style="width:100%" class="w3-grayscale">
         <div class="w3-container w3-black">
           <h4>About creaters</h4>
-          <p><a href="https://texidomeg.ml"><b>Harinandan</a> & Muhsin</b></p>
+          <p><b>Harinandan & Muhsin</b></p>
           <p>Some JSD sudents trying to do something that useful to Public </p>
         <div class="w3-margin"style="padding-left:0px;">
         <div class="w3-container w3-xlarge w3-padding">
@@ -211,42 +225,9 @@ and is wrapped around the whole page content, except for the footer in this exam
     </div>
     <hr> 
 
-<!--Special Thanks To-->
-      <div class="w3-white w3-margin"> 
-        <div class=" w3-padding w3-black">
-          <h4>Special Thanks To</h4>
-        </div><br />
-        <div class="w3-container w3-white">
-          <p>
-             <span class="w3-tag w3-light-grey w3-margin-bottom">Sir. Jinesh</span>
-             <span class="w3-tag w3-light-grey w3-margin-bottom ">Mrs. Ashitha</span>
-             <span class="w3-tag w3-light-grey w3-margin-bottom"></span><span class="w3-tag w3-light-grey w3-margin-bottom">Hats</span> 
-             <span class="w3-tag w3-light-grey ">Norway</span>
-             <span class="w3-tag w3-light-grey  w3-margin-bottom">Sweaters</span>
-            <span class="w3-tag w3-light-grey  w3-margin-bottom">Ideas</span>
-             <span class="w3-tag w3-light-grey w3-margin-bottom">Deals</span> 
-             <span class="w3-tag w3-light-grey  w3-margin-bottom">Accessories</span>
-            <span class="w3-tag w3-light-grey w3-margin-bottom">News</span>
-             <span class="w3-tag w3-light-grey w3-margin-bottom">Shifna</span>
-              <span class="w3-tag w3-light-grey w3-margin-bottom">Rufna</span>
-            <span class="w3-tag w3-light-grey  w3-margin-bottom">Niya.s</span> 
-            <span class="w3-tag w3-light-grey  w3-margin-bottom">Ananya.k</span>
-          </p>
-        </div>
-      </div>
-      <hr>
-
-      
-  <!-- END GRID -->
-  </div>
-<!-- END w3-content -->
-</div>
-
-
-
 <!-- Footer -->
 <footer class="w3-container w3-padding-32 w3-margin-top">
- <a href="#" class="w3-button w3-transparent w3-padding-large w3-margin-bottom"><i class=" w3-margin-center"></i><p>Powered By <b>GVHSS CHELARI</b></p></a>
+ <a href="#" class="w3-padding-large w3-margin-bottom"><i class=" w3-margin-center"></i><p>© Copyrighted to <b>GVHSS CHELARI</b></p></a>
 
 </footer>
 
